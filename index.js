@@ -162,7 +162,47 @@
 
 // type conversion = change the datatype of a value to another(strings,numbers,boolean)
 
-let age = window.prompt("How old are you!");
-age = Number(age);
-age = age + 1;
-console.log(age);
+// let age = window.prompt("How old are you!");
+// age = Number(age);
+// age = age + 1;
+// console.log(age, typeof age);
+
+// let x = "Pizza";
+// let y = "Pizza";
+// let z = "Pizza";
+
+// let x = "0";
+// let y = "0";
+// let z = "0";
+
+// let x = "";
+// let y = "";
+// let z = "";
+
+// let x;
+// let y;
+// let z;
+
+// x = Number(x);
+// y = String(y);
+// z = Boolean(z);
+
+// console.log(x, typeof x); // NaN -> Not a Number
+// console.log(y, typeof y);
+// console.log(z, typeof z);
+
+// ############################## const ############################################
+
+// const = a variable that can't be changed.
+
+
+// radius of a circle 
+// let pi = 3.14159;
+const PI = 3.14159; // const variable
+let radius;
+let circumference;
+
+radius = window.prompt("Enter the radius of a circle: ");
+radius = Number(radius);
+circumference = 2 * PI * radius;
+console.log(circumference);
