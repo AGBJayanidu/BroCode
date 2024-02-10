@@ -158,4 +158,11 @@
 //     document.getElementById('myH1').textContent = `Hello ${userName}`;
 // }
 
-// ############################## accept user input #############################
+// ############################## type conversion #############################
+
+// type conversion = change the datatype of a value to another(strings,numbers,boolean)
+
+let age = window.prompt("How old are you!");
+age = Number(age);
+age = age + 1;
+console.log(age);
