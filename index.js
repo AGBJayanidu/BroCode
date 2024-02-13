@@ -272,3 +272,45 @@
 // console.log(max);
 // console.log(min);
 
+// ############################## Random Number Generator #######################
+
+// Random Number Generator
+// const min = 50;
+// const max = 100;
+
+// let randoNum = Math.floor(Math.random() * (max-min)) +min;
+// console.log(randoNum);
+
+// let myButton = document.getElementById("myButton");
+// let label1 = document.getElementById("label1");
+// let label2 = document.getElementById("label2");
+// let label3 = document.getElementById("label3");
+// let min = 1;
+// let max = 6;
+// let randomNum1;
+// let randomNum2;
+// let randomNum3;
+
+// myButton.onclick = function() {
+
+//     randomNum1 = Math.floor(Math.random() * max) + min;
+//     randomNum2 = Math.floor(Math.random() * max) + min;
+//     randomNum3 = Math.floor(Math.random() * max) + min;
+
+//     label1.textContent = randomNum1;
+//     label2.textContent = randomNum2;
+//     label3.textContent = randomNum3;
+// }
+
+// ############################## IF STATEMENTS #######################
+
+// if statements = if a condition is true, execute some code if not, do somthing else.
+
+// let age = 18;
+
+// if(age >= 18){
+//     console.log("You are old enough to enter this site");
+// }
+// else{
+//     console.log("You must be 18+ to enter this site.")
+// }
